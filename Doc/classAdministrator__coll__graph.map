@@ -1,0 +1,5 @@
+<map id="Administrator" name="Administrator">
+<area shape="rect" id="node2" href="$classPopulation.html" title="Population\&lt; Cell, Administrator \&gt;" alt="" coords="5,184,220,211"/>
+<area shape="rect" id="node3" href="$classDanger.html" title="Clase que representa el módulo de peligro, el cual genera los antigenos de peligro. " alt="" coords="38,5,102,32"/>
+<area shape="rect" id="node4" href="$classSniffer.html" title="Clase que representa el módulo sniffer, el cual genera los antigenos de red. " alt="" coords="127,5,187,32"/>
+</map>

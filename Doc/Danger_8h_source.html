@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Inmuneratio: Fichero Fuente Danger.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Inmuneratio
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('Danger_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Danger.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef DANGER_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define DANGER_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;Antigen.h&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classDanger.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="classDanger.html">Danger</a>{</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classDanger.html#a8f2ec0e181db854962a4b776e24e5941">   15</a></span>&#160;    mutex *<a class="code" href="classDanger.html#a8f2ec0e181db854962a4b776e24e5941">dngmutex</a>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classDanger.html#aac4ff79ae43b11fc57b9fe60a46bb4fe">   18</a></span>&#160;    vector&lt;Antigen&gt; <a class="code" href="classDanger.html#aac4ff79ae43b11fc57b9fe60a46bb4fe">dngAntigens</a>;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classDanger.html#acfb65fdaa72ffa8565a56bc7dbc8f6e7">   21</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classDanger.html#acfb65fdaa72ffa8565a56bc7dbc8f6e7">dngStep</a> = 0;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classDanger.html#a522d2f58a085d711434664fff8958ac8">   24</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classDanger.html#a522d2f58a085d711434664fff8958ac8">dngStop</a> = <span class="keyword">false</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classDanger.html#a3544cdfc4cb05bd8c7dd5f6025a5bb41">   27</a></span>&#160;    vector&lt;bool&gt; <a class="code" href="classDanger.html#a3544cdfc4cb05bd8c7dd5f6025a5bb41">valueRun</a>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classDanger.html#aadd133a60414d2a886a5e6adaf1cbc26">getDISKValue</a>();</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classDanger.html#a0841435c1195f1d93cd5bf6e869acf8f">getCPUValue</a>();</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classDanger.html#a2a2622bf295f4b2467e2abebea007997">getRAMValue</a>();</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    pair&lt;int, int&gt; <a class="code" href="classDanger.html#a7b3134a3358cef79e9935539e0dc25ce">getNETValue</a>(<span class="keywordtype">string</span> device);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classDanger.html#a9014c3873a7f332bb5d9900b083efaa9">getCONNValue</a>();</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classDanger.html#acb8bdfe3c400f38baa3099ec42bc18aa">getPROCValue</a>();</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classDanger.html#abff16f67bf2ddd1f95fab8e803dafb7f">getLOGValue</a>();</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classDanger.html#a8bbb39a1c5df5400cdfdd0cb24cc1c8c">getFAILValue</a>();</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    </div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="classDanger.html">Danger</a>(vector&lt;bool&gt; valr);</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="classDanger.html">Danger</a>();</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    ~<a class="code" href="classDanger.html">Danger</a>();</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    vector&lt;Antigen&gt; <a class="code" href="classDanger.html#a0556ff602a437ef714391ed17227539e">getDangerAntigens</a>();</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classDanger.html#a001e68b920ce1bb2968a2d5ef0f89e32">dangerRun</a>();</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classDanger.html#a786c63f374f5113716fe8b64f47731d9">stopDanger</a>();</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;};</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classDanger_html_acb8bdfe3c400f38baa3099ec42bc18aa"><div class="ttname"><a href="classDanger.html#acb8bdfe3c400f38baa3099ec42bc18aa">Danger::getPROCValue</a></div><div class="ttdeci">int getPROCValue()</div><div class="ttdef"><b>Definition:</b> Danger.cpp:186</div></div>
+<div class="ttc" id="classDanger_html_a8bbb39a1c5df5400cdfdd0cb24cc1c8c"><div class="ttname"><a href="classDanger.html#a8bbb39a1c5df5400cdfdd0cb24cc1c8c">Danger::getFAILValue</a></div><div class="ttdeci">int getFAILValue()</div><div class="ttdef"><b>Definition:</b> Danger.cpp:238</div></div>
+<div class="ttc" id="classDanger_html_a8f2ec0e181db854962a4b776e24e5941"><div class="ttname"><a href="classDanger.html#a8f2ec0e181db854962a4b776e24e5941">Danger::dngmutex</a></div><div class="ttdeci">mutex * dngmutex</div><div class="ttdoc">Mutex utilizado para gestionar el uso del vector de antigenos dngAntigens. </div><div class="ttdef"><b>Definition:</b> Danger.h:15</div></div>
+<div class="ttc" id="classDanger_html_a2a2622bf295f4b2467e2abebea007997"><div class="ttname"><a href="classDanger.html#a2a2622bf295f4b2467e2abebea007997">Danger::getRAMValue</a></div><div class="ttdeci">int getRAMValue()</div><div class="ttdef"><b>Definition:</b> Danger.cpp:97</div></div>
+<div class="ttc" id="classDanger_html_a001e68b920ce1bb2968a2d5ef0f89e32"><div class="ttname"><a href="classDanger.html#a001e68b920ce1bb2968a2d5ef0f89e32">Danger::dangerRun</a></div><div class="ttdeci">void dangerRun()</div><div class="ttdef"><b>Definition:</b> Danger.cpp:35</div></div>
+<div class="ttc" id="classDanger_html_aadd133a60414d2a886a5e6adaf1cbc26"><div class="ttname"><a href="classDanger.html#aadd133a60414d2a886a5e6adaf1cbc26">Danger::getDISKValue</a></div><div class="ttdeci">int getDISKValue()</div><div class="ttdef"><b>Definition:</b> Danger.cpp:65</div></div>
+<div class="ttc" id="classDanger_html_a7b3134a3358cef79e9935539e0dc25ce"><div class="ttname"><a href="classDanger.html#a7b3134a3358cef79e9935539e0dc25ce">Danger::getNETValue</a></div><div class="ttdeci">pair&lt; int, int &gt; getNETValue(string device)</div><div class="ttdef"><b>Definition:</b> Danger.cpp:113</div></div>
+<div class="ttc" id="classDanger_html_a786c63f374f5113716fe8b64f47731d9"><div class="ttname"><a href="classDanger.html#a786c63f374f5113716fe8b64f47731d9">Danger::stopDanger</a></div><div class="ttdeci">void stopDanger()</div><div class="ttdef"><b>Definition:</b> Danger.cpp:264</div></div>
+<div class="ttc" id="classDanger_html_aac4ff79ae43b11fc57b9fe60a46bb4fe"><div class="ttname"><a href="classDanger.html#aac4ff79ae43b11fc57b9fe60a46bb4fe">Danger::dngAntigens</a></div><div class="ttdeci">vector&lt; Antigen &gt; dngAntigens</div><div class="ttdoc">Vector que guarda los antigenos generados por el módulo para luego ser entregados dentro de las funci...</div><div class="ttdef"><b>Definition:</b> Danger.h:18</div></div>
+<div class="ttc" id="classDanger_html_a0556ff602a437ef714391ed17227539e"><div class="ttname"><a href="classDanger.html#a0556ff602a437ef714391ed17227539e">Danger::getDangerAntigens</a></div><div class="ttdeci">vector&lt; Antigen &gt; getDangerAntigens()</div><div class="ttdef"><b>Definition:</b> Danger.cpp:24</div></div>
+<div class="ttc" id="classDanger_html"><div class="ttname"><a href="classDanger.html">Danger</a></div><div class="ttdoc">Clase que representa el módulo de peligro, el cual genera los antigenos de peligro. </div><div class="ttdef"><b>Definition:</b> Danger.h:11</div></div>
+<div class="ttc" id="classDanger_html_a3544cdfc4cb05bd8c7dd5f6025a5bb41"><div class="ttname"><a href="classDanger.html#a3544cdfc4cb05bd8c7dd5f6025a5bb41">Danger::valueRun</a></div><div class="ttdeci">vector&lt; bool &gt; valueRun</div><div class="ttdoc">Vector el cual establece cuales van a ser los parametros del estado del host que van a ser considerad...</div><div class="ttdef"><b>Definition:</b> Danger.h:27</div></div>
+<div class="ttc" id="classDanger_html_a0841435c1195f1d93cd5bf6e869acf8f"><div class="ttname"><a href="classDanger.html#a0841435c1195f1d93cd5bf6e869acf8f">Danger::getCPUValue</a></div><div class="ttdeci">int getCPUValue()</div><div class="ttdef"><b>Definition:</b> Danger.cpp:78</div></div>
+<div class="ttc" id="classDanger_html_a9014c3873a7f332bb5d9900b083efaa9"><div class="ttname"><a href="classDanger.html#a9014c3873a7f332bb5d9900b083efaa9">Danger::getCONNValue</a></div><div class="ttdeci">int getCONNValue()</div><div class="ttdef"><b>Definition:</b> Danger.cpp:160</div></div>
+<div class="ttc" id="classDanger_html_acfb65fdaa72ffa8565a56bc7dbc8f6e7"><div class="ttname"><a href="classDanger.html#acfb65fdaa72ffa8565a56bc7dbc8f6e7">Danger::dngStep</a></div><div class="ttdeci">int dngStep</div><div class="ttdoc">Contador de antigenos generados por el módulo. Permite establecer la variable &quot;step&quot; de los antigenos...</div><div class="ttdef"><b>Definition:</b> Danger.h:21</div></div>
+<div class="ttc" id="classDanger_html_a522d2f58a085d711434664fff8958ac8"><div class="ttname"><a href="classDanger.html#a522d2f58a085d711434664fff8958ac8">Danger::dngStop</a></div><div class="ttdeci">bool dngStop</div><div class="ttdoc">Variable utilizada para la detención del módulo. </div><div class="ttdef"><b>Definition:</b> Danger.h:24</div></div>
+<div class="ttc" id="classDanger_html_abff16f67bf2ddd1f95fab8e803dafb7f"><div class="ttname"><a href="classDanger.html#abff16f67bf2ddd1f95fab8e803dafb7f">Danger::getLOGValue</a></div><div class="ttdeci">int getLOGValue()</div><div class="ttdef"><b>Definition:</b> Danger.cpp:212</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>Danger.h</b></li>
+    <li class="footer">Generado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

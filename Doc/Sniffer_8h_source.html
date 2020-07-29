@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Inmuneratio: Fichero Fuente Sniffer.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Inmuneratio
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('Sniffer_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Sniffer.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SNIFFER_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SNIFFER_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;Antigen.h&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;pcap.h&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classSniffer.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="classSniffer.html">Sniffer</a>{</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">void</span> my_packet_handler(</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">const</span> <span class="keyword">struct</span> pcap_pkthdr *header,</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keyword">const</span> u_char *packet);</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classSniffer.html#a3edf113a76b7a9e303d2bef88bc74ccd">   20</a></span>&#160;    mutex *<a class="code" href="classSniffer.html#a3edf113a76b7a9e303d2bef88bc74ccd">snfmutex</a>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classSniffer.html#a06dc78389d46525778c5ee4aa94da28f">   23</a></span>&#160;    vector&lt;Antigen&gt; <a class="code" href="classSniffer.html#a06dc78389d46525778c5ee4aa94da28f">snfAntigens</a>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    </div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classSniffer.html#a5f57327040fe3dda79e8b7ea0cdcc8ad">   26</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classSniffer.html#a5f57327040fe3dda79e8b7ea0cdcc8ad">snfStep</a> = 0;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classSniffer.html#ad3fce345bfd0e5f7c1a0dcbc0b8be468">   29</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classSniffer.html#ad3fce345bfd0e5f7c1a0dcbc0b8be468">snfStop</a> = <span class="keyword">false</span>;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="classSniffer.html">Sniffer</a>();</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    ~<a class="code" href="classSniffer.html">Sniffer</a>();</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    vector&lt;Antigen&gt; <a class="code" href="classSniffer.html#ab7e965316ee3a250dff4c91a3e8abd49">getSnifferAntigens</a>();   </div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSniffer.html#aa92dcd9ec5d6e21b42715bec1dd446f3">snifferRun</a>();</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classSniffer.html#a8193eb6cf0a182e04f5ccde2eea3c1c1">stopSniffer</a>();</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;};</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classSniffer_html_ab7e965316ee3a250dff4c91a3e8abd49"><div class="ttname"><a href="classSniffer.html#ab7e965316ee3a250dff4c91a3e8abd49">Sniffer::getSnifferAntigens</a></div><div class="ttdeci">vector&lt; Antigen &gt; getSnifferAntigens()</div><div class="ttdef"><b>Definition:</b> Sniffer.cpp:38</div></div>
+<div class="ttc" id="classSniffer_html_aa92dcd9ec5d6e21b42715bec1dd446f3"><div class="ttname"><a href="classSniffer.html#aa92dcd9ec5d6e21b42715bec1dd446f3">Sniffer::snifferRun</a></div><div class="ttdeci">void snifferRun()</div><div class="ttdef"><b>Definition:</b> Sniffer.cpp:227</div></div>
+<div class="ttc" id="classSniffer_html_a8193eb6cf0a182e04f5ccde2eea3c1c1"><div class="ttname"><a href="classSniffer.html#a8193eb6cf0a182e04f5ccde2eea3c1c1">Sniffer::stopSniffer</a></div><div class="ttdeci">void stopSniffer()</div><div class="ttdef"><b>Definition:</b> Sniffer.cpp:49</div></div>
+<div class="ttc" id="classSniffer_html"><div class="ttname"><a href="classSniffer.html">Sniffer</a></div><div class="ttdoc">Clase que representa el módulo sniffer, el cual genera los antigenos de red. </div><div class="ttdef"><b>Definition:</b> Sniffer.h:12</div></div>
+<div class="ttc" id="classSniffer_html_a3edf113a76b7a9e303d2bef88bc74ccd"><div class="ttname"><a href="classSniffer.html#a3edf113a76b7a9e303d2bef88bc74ccd">Sniffer::snfmutex</a></div><div class="ttdeci">mutex * snfmutex</div><div class="ttdoc">Mutex utilizado para gestionar el uso del vector de antigenos snfAntigens. </div><div class="ttdef"><b>Definition:</b> Sniffer.h:20</div></div>
+<div class="ttc" id="classSniffer_html_a06dc78389d46525778c5ee4aa94da28f"><div class="ttname"><a href="classSniffer.html#a06dc78389d46525778c5ee4aa94da28f">Sniffer::snfAntigens</a></div><div class="ttdeci">vector&lt; Antigen &gt; snfAntigens</div><div class="ttdoc">Vector que guarda los antigenos generados por el módulo para luego ser entregados dentro de las funci...</div><div class="ttdef"><b>Definition:</b> Sniffer.h:23</div></div>
+<div class="ttc" id="classSniffer_html_a5f57327040fe3dda79e8b7ea0cdcc8ad"><div class="ttname"><a href="classSniffer.html#a5f57327040fe3dda79e8b7ea0cdcc8ad">Sniffer::snfStep</a></div><div class="ttdeci">int snfStep</div><div class="ttdoc">Contador de antigenos generados por el módulo. Permite establecer la variable &quot;step&quot; de los antigenos...</div><div class="ttdef"><b>Definition:</b> Sniffer.h:26</div></div>
+<div class="ttc" id="classSniffer_html_ad3fce345bfd0e5f7c1a0dcbc0b8be468"><div class="ttname"><a href="classSniffer.html#ad3fce345bfd0e5f7c1a0dcbc0b8be468">Sniffer::snfStop</a></div><div class="ttdeci">bool snfStop</div><div class="ttdoc">Variable utilizada para la detención del módulo. </div><div class="ttdef"><b>Definition:</b> Sniffer.h:29</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>Sniffer.h</b></li>
+    <li class="footer">Generado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

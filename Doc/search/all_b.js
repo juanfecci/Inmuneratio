@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['selfip',['selfIP',['../classAdministrator.html#a44f63087050d9ea719603369e730d58b',1,'Administrator']]],
+  ['sendcell',['sendCell',['../classPopulation.html#a7890c5893943f127dbeca6f3981f6665',1,'Population']]],
+  ['senddiscovery',['sendDiscovery',['../classAdministrator.html#a8842db7f787654f2513747ba7e5ec002',1,'Administrator']]],
+  ['serverdiscovery',['serverDiscovery',['../classAdministrator.html#a4cc2f1c9c0fade7a8662e441a9b666b9',1,'Administrator']]],
+  ['servertcp',['serverTCP',['../classAdministrator.html#a365c94c9fbb87ebf60c1bbbae56fd3a6',1,'Administrator']]],
+  ['setcell',['setCell',['../classCell.html#aad7433799c095c7ed0264d5a309f9632',1,'Cell::setCell()'],['../classPopulation.html#a5f95cf554aac0581c0952232a5eb0ee0',1,'Population::setCell()']]],
+  ['setinternalvar',['setInternalVar',['../classCell.html#a5ed07d1aad18c90f0e8e3a291350db56',1,'Cell']]],
+  ['snfantigens',['snfAntigens',['../classSniffer.html#a06dc78389d46525778c5ee4aa94da28f',1,'Sniffer']]],
+  ['snfmutex',['snfmutex',['../classSniffer.html#a3edf113a76b7a9e303d2bef88bc74ccd',1,'Sniffer']]],
+  ['snfstep',['snfStep',['../classSniffer.html#a5f57327040fe3dda79e8b7ea0cdcc8ad',1,'Sniffer']]],
+  ['snfstop',['snfStop',['../classSniffer.html#ad3fce345bfd0e5f7c1a0dcbc0b8be468',1,'Sniffer']]],
+  ['sniffer',['Sniffer',['../classSniffer.html',1,'Sniffer'],['../classAdministrator.html#a1842704c80fbfb0cef760e79350ab1e8',1,'Administrator::sniffer()']]],
+  ['snifferrun',['snifferRun',['../classSniffer.html#aa92dcd9ec5d6e21b42715bec1dd446f3',1,'Sniffer']]],
+  ['startconnection',['startConnection',['../classAdministrator.html#aaaeb6cd79b41f73818221daa9e4c36b7',1,'Administrator']]],
+  ['stats',['stats',['../classPopulation.html#aa644d3b82e331f0d066850fb93ce374a',1,'Population']]],
+  ['step',['step',['../classAntigen.html#a5021f3134fabec673abf9b3a6dbb5fb1',1,'Antigen']]],
+  ['stopdanger',['stopDanger',['../classDanger.html#a786c63f374f5113716fe8b64f47731d9',1,'Danger']]],
+  ['stopserverd',['StopServerD',['../classAdministrator.html#a1e11f395515909d488943e5063a23b43',1,'Administrator']]],
+  ['stopservertcp',['StopServerTCP',['../classAdministrator.html#ae6d9dd05f593f4ae22c5f5a859cefdcd',1,'Administrator']]],
+  ['stopsniffer',['stopSniffer',['../classSniffer.html#a8193eb6cf0a182e04f5ccde2eea3c1c1',1,'Sniffer']]]
+];

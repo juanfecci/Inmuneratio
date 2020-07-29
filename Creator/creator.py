@@ -120,7 +120,7 @@ def main():
 	#try:
 	os.mkdir(nombreP)
 
-	##################################
+	#####################################
 
 	with open("base_files/ADTAdministrator.cpp", "r") as f:
 		text = f.read()
